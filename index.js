@@ -15,6 +15,9 @@ var questions = [{
 },{
   question :"Where did Richard first meet Peter Gregory? \n a. At start up \n b. Outside ted talk \n c. At coffee shop \n",
   ans : "b"
+},{
+  question : "Who was cut from the original Pied Piper Cap Table? \n a. Big head \n b. Dinesh \n c.Gilfoyle \n",
+  ans : "a"
 }
 ];
 
