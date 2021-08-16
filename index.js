@@ -22,7 +22,7 @@ var questions = [{
 ];
 
 var score = 0;
-var highScore = [{name : "Richard", score :3}];
+var highScore = [{name : "Richard", score :5}];
 var name = readlinesync.question("Hey! what's your name ?  ");
 
 console.log(chalk.hex("#FF9A12").bold("Hi "+ name + "! Welcome to Silicon Valley quiz"));
@@ -39,7 +39,7 @@ if(score > highScore[0]['score']){
     console.log("Congratulations! you scored higher than" + highScore[0]['name']);
 }
 
-console.log(chalk.hex("#12FF3A").underline("Thanks for playing"))
+console.log(chalk.hex("#12FF3A").underline("Thanks for playing Your Score :" + score))
 
 console.log("Do Checkout the highScores : ");
 for(var per in highScore){
